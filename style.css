@@ -1,0 +1,48 @@
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 2;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+  
+}
+
+.b{
+
+    width: 80%;
+  }
+
+img {
+    border: 1px solid #ddd; 
+    border-radius: 4px;  
+    padding: 5px; 
+    width: 100%;
+  }
+
+  p{
+      font-size: 25px;
+  }
+
+  .b {
+    font-style:italic;
+    font-size: 23px;
+
+  }
+
+  .b:hover {
+    color: blue;
+    font-size: 30px;
+}
+#header {
+    background-color: #f1f1f1; /* Grey background */
+    padding: 50px 10px; /* Some padding */
+    color: black;
+    text-align: center; /* Centered text */
+    font-size: 60px; /* Big font size */
+    font-weight: bold;
+    position: fixed; /* Fixed position - sit on top of the page */
+    top: 0;
+    width: 100%; /* Full width */
+    transition: 0.3s; /* Add a transition effect (when scrolling - and font size is decreased) */
+  }
